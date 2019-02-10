@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Painting</title>
+  </head>
+
+  <style>
+    canvas {
+      border: 2px solid rgb(88, 88, 88);
+    }
+
+    label {
+      display: inline-flex;
+      flex-direction: column;
+    }
+  </style>
+  <body>
+    <canvas id="canvas" width="250" height="250"></canvas>
+    <div>
+      <label>
+        <span>Box Size</span>
+        <input type="range" min="10" max="50" step="1" id="box-size" />
+      </label>
+
+      <label>
+        <span>Canvas Size</span>
+        <input type="range" min="100" max="500" step="10" id="canvas-size" />
+      </label>
+
+      <label>
+        <span>Speed</span>
+        <input type="range" min="0" max="100" step="1" id="speed" />
+      </label>
+    </div>
+
+    <div>
+      <button id="toggle">Stop Iterating</button>
+      <button id="clear">Clear Canvas</button>
+    </div>
+
+    <script src="../src/index.ts"></script>
+  </body>
+</html>
