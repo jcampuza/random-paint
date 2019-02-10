@@ -1,5 +1,5 @@
 # random-paint
-Just a small thing I build while bored 🤷‍♂️
+Just a small thing I built while bored 🤷‍♂️
 
 ### To run
 
